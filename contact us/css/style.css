@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+}
+.fixed img {
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+}
+.form{
+    position: relative;
+    padding: 20px;
+    margin-top: 10%;
+    border: 0px solid black;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.form-floating{
+    margin: 2%;
+}
+
+h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100vh;
+    font-style: bold;
+    margin-left: 2%;
+}
+
+    .socials{
+        position: relative;
+        padding: 20px;
+        margin-top: 7%;
+  
+    }
+
+
+    .fixed a {
+        font-size: 30px;
+        font-weight: 100vh;
+        font-style: bold;
+        text-align: center;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .navbar-nav {
+        margin-left: 70%;
+        padding: 5px;
+    }
+
+.add
+{
+    color: white;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    font-size: larger;
+    font-style: bold;
+    font-weight: 200vh;
+}
