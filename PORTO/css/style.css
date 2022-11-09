@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #182230;
+}
+
+
+/*Code to change color of active link*/
+.nav1 .navbar-nav > .active > a {
+    color: #146fe7;
+}
+
+.nav1 nav {
+    background-color: white;
+}
+
+.nav1 .navbar-nav a {
+    color: #183f72;
+    font-weight: 1000;
+    margin-left: auto;
+    transition: 0.3s;
+    word-spacing: 30px;
+}
+
+.nav1 .navbar-nav a:hover{
+    background: transparent;
+    border-bottom: 1px solid #183f72;
+    border-width: thick;
+    padding: 10px;
+}
+
+.nav1 .navbar-nav {
+margin-left: auto;
+}
+
+.nav2 {
+    margin-top: 4%;
+    background-color: #EEF0F4;
+    padding: 60px;
+    text-align: center;
+}
+
+.nav2 h2{
+    color: #183f72;
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: #de2525;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.heading {
+    padding: 60px;
+    background-color: #fafafc;
+}
+
+.heading .details .head1{
+    font-weight: 800;
+    font-style: bold;
+}
+.heading .details li {
+    list-style: none;
+    text-align: left;
+    font-size: 20px;
+    color: #183f72;
+}
+
+.heading .details p {
+    font-style: bold;
+    font-size: 30px;
+    color: #e8465f;
+    font-weight: 700;
+}
+
+.details{
+    border: 0.2px solid black;
+    padding: 20px;
+}
+
+.footer {
+    padding: 50px;
+}
+
+.footer h1{
+    color: #e8465f;
+    font-weight: 700;
+}
+
+.footer p{
+    color: #183f72;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.footer button{
+    padding: 20px;
+    margin-top: 2%;
+    background-color: #e8465f;
+    color: white;
+    border-radius: 0.2cm;
+    border: 0px solid black;
+
+}
+
+.footer button:hover{
+    background-color: #183f72;
+    color: white;
+}

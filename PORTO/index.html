@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <title>PORTO</title>
+</head>
+<body>
+<div class="container">
+    <div class="nav1">
+        <nav class="container-fluid navbar fixed-top navbar-expand-lg">
+            <a class="navbar-brand" href="#" style="margin-left:5% ;"><img src="images/porto.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- <div class="navbar-collapse" id="navbarNavAltMarkup"> -->
+              <div class="navbar-nav" style="margin-right:15%;">
+                <a class="nav-item nav-link" href="#">Home</a>
+                <a class="nav-item nav-link" href="#">Aboutus</a>
+                <a class="nav-item nav-link" href="#">Services</a>
+                <a class="nav-item nav-link active" href="#">Contactus</a>
+              </div>
+              <a class="nav-item nav-link" href="#" style="margin-right:5%"><i class="fa fa-search"></i></a>
+            <!-- </div> -->
+          </nav>
+    </div>
+  </div>
+
+    <div class="nav2">
+      <h2>Contact</h2>
+      <a href="#">Home ></a><a href="#"> Contact us</a>
+    </div>
+
+
+    <div class="heading">
+      <div class="details">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+        <ul><p>Get in Touch</p>
+          <li><span class="head1">Work inquiries</span></li>
+          <li>01424242</li><br>
+          <li><span class="head1">Career and press</span></li>
+          <li>01424242</li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul><p>Address and Mail</p>
+          <li><span class="head1">Address</span></li>
+          <li>01424242</li>
+          <li>123,Kathmandu</li><br>
+          <li><span class="head1">Email</span></li>
+          <li>business@port.com</li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul><p>Social Medias</p>
+          <li>Instagram</li>
+          <li>Facebook</li>
+          <li>Twitter</li>
+        </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+    </div>
+
+      <div class="container footer">
+        <div class="row">
+          <div class="col-6">
+            <h1>Get in Touch</h1>
+            <p>Send us a message</p>
+            <div class="form_label">   
+              <div class="form-floating mb-3" style="margin-top: 2%;">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                  <label for="floatingInput">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="example@123.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="Subject">
+                  <label for="floatingInput">Subject</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="Message">
+                  <label for="floatingInput">Message</label>
+
+                  <button type="button" id="btn">Send Message</button>
+                </div>
+              </div>
+              <!-- <div class="cont">
+                  <a href="#" class="fa fa-facebook" style="font-size:30px;"></a>
+                  <a href="#" class="fa fa-twitter" style="font-size:30px;"></a>
+                  <a href="#" class="fa fa-google" style="font-size:30px;"></a>
+                  <a href="#" class="fa fa-pinterest" style="font-size:30px;"></a>
+              </div> -->
+          </div>
+          </div>
+          <div class="col-6">
+            
+          </div>
+        </div>
+      </div>
+
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".nav1 navbar-nav > a").click(function (e) {
+             $(".nav1 navbar-nav > a").removeClass("active");
+             $(this).addClass("active");
+              });
+          });
+    </script>
+</body>
+</html>
